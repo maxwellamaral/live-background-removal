@@ -1,3 +1,6 @@
 [submodule "opencv"]
 	path = opencv
 	url = https://github.com/opencv/opencv-python.git
+[submodule "live_background_removal"]
+	path = live_background_removal
+	url = https://github.com/opencv/opencv-python.git

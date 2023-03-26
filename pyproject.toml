@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "live-background-removal"
+version = "0.1.0"
+description = ""
+authors = ["Maxwell Anderson <max@maxwellanderson.com.br>"]
+readme = "README.md"
+packages = [{include = "live_background_removal"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "*"
+pyvirtualcam = "^0.10.2"
+scikit-image = "^0.19.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
